@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Mea+Culpa&display=swap');
+body{
+    background-color: rgba(225, 225, 231, 0.823);/*Muda a cor do fundo*/
+    color: white;
+  font-family: "Mea Culpa", cursive;
+  font-family: "Cinzel", serif;
+  
+  
+}
+
+h2{
+ font-family: 'Mea Culpa', cursive;
+ color: rgb(53, 38, 120);
+ padding-left: 35px;
+
+}
+.painel{
+    background-color:rgba(50, 149, 180, 0.948) ;
+    color: rgb(183, 47, 23) ;
+    padding: rgb(145, 144, 179);
+    border-radius: 20cap;
+    box-shadow: 0px 8px 12px rgb(174, 29, 29);
+    width: 1000px 
+}/* fim da estilização do .painel*/
+ input, button{
+    width: 80%;
+    padding: 10px;
+margin-top: 10px;
+font-size: 16px;
+box-sizing: border-box;
+ }
+ button {
+    background-color: rgb(148, 220, 220);
+    color: blue;
+    border: none;
+    cursor: pointer;
+    width: 500px;
+    margin:90px;
+ }
+ button:hover {
+    background-color: aliceblue;
+ }
